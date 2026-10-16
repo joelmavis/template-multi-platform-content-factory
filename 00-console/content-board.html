@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Multi-Platform Content Factory</title>
+<style>body{font:16px system-ui;margin:2rem;color:#182638;background:#f6f8fa}table{border-collapse:collapse;background:white}th,td{padding:.7rem;border:1px solid #ccd3dc;text-align:left}a{color:#164f9c}.board{overflow-x:auto}caption{text-align:left;padding:.7rem}</style>
+</head><body><h1>Multi-Platform Content Factory</h1>
+<p>Public template. All examples are fictional.</p>
+<p>Generated from content-board.csv. Human approval and manual publication required.</p>
+<div class="board"><table><caption>Editorial board</caption><thead><tr>
+<th scope="col">topic id</th>
+<th scope="col">platform</th>
+<th scope="col">status</th>
+<th scope="col">previous status</th>
+<th scope="col">owner</th>
+<th scope="col">due</th>
+<th scope="col">file path</th>
+<th scope="col">visual brief id</th>
+<th scope="col">review path</th>
+<th scope="col">notes</th>
+</tr></thead><tbody>
+<tr>
+<td>sample-001</td>
+<td>wechat</td>
+<td>review</td>
+<td>draft</td>
+<td>{{ZH_EDITOR_ROLE}}</td>
+<td>2026-10-14</td>
+<td><a href="../03-drafts/sample-001/wechat.md">03-drafts/sample-001/wechat.md</a></td>
+<td>sample-001-wechat</td>
+<td><a href="../04-review/sample-001-review.md">04-review/sample-001-review.md</a></td>
+<td>示例/SAMPLE: Waiting for language review.</td>
+</tr>
+<tr>
+<td>sample-001</td>
+<td>x</td>
+<td>published</td>
+<td>final</td>
+<td>{{PUBLISHER_ROLE}}</td>
+<td>2026-10-12</td>
+<td><a href="../03-drafts/sample-001/x.md">03-drafts/sample-001/x.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-001-review.md">04-review/sample-001-review.md</a></td>
+<td>示例/SAMPLE: SAMPLE simulated publication; no actual post.</td>
+</tr>
+<tr>
+<td>sample-001</td>
+<td>medium</td>
+<td>returned</td>
+<td>review</td>
+<td>{{LONGFORM_EDITOR_ROLE}}</td>
+<td>2026-10-15</td>
+<td><a href="../03-drafts/sample-001/medium.md">03-drafts/sample-001/medium.md</a></td>
+<td>sample-001-medium</td>
+<td><a href="../04-review/sample-001-review.md">04-review/sample-001-review.md</a></td>
+<td>示例/SAMPLE: 退回: opening too broad; replace vague handoff example.</td>
+</tr>
+<tr>
+<td>sample-001</td>
+<td>linkedin</td>
+<td>final</td>
+<td>review</td>
+<td>{{REVIEWER_ROLE}}</td>
+<td>2026-10-19</td>
+<td><a href="../03-drafts/sample-001/linkedin.md">03-drafts/sample-001/linkedin.md</a></td>
+<td>sample-001-linkedin</td>
+<td><a href="../04-review/sample-001-review.md">04-review/sample-001-review.md</a></td>
+<td>示例/SAMPLE: SAMPLE simulated final decision; no real approval.</td>
+</tr>
+<tr>
+<td>sample-001</td>
+<td>reddit</td>
+<td>draft</td>
+<td>idea</td>
+<td></td>
+<td>2026-10-22</td>
+<td><a href="../03-drafts/sample-001/reddit.md">03-drafts/sample-001/reddit.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-001-review.md">04-review/sample-001-review.md</a></td>
+<td>示例/SAMPLE: Owner unassigned; community fit unresolved.</td>
+</tr>
+<tr>
+<td>sample-002</td>
+<td>wechat</td>
+<td>draft</td>
+<td>idea</td>
+<td>{{ZH_EDITOR_ROLE}}</td>
+<td>2026-10-20</td>
+<td><a href="../03-drafts/sample-002/wechat.md">03-drafts/sample-002/wechat.md</a></td>
+<td>sample-002-wechat</td>
+<td><a href="../04-review/sample-002-review.md">04-review/sample-002-review.md</a></td>
+<td>示例/SAMPLE: First pass; concrete handoff example needed.</td>
+</tr>
+<tr>
+<td>sample-002</td>
+<td>x</td>
+<td>review</td>
+<td>draft</td>
+<td>{{SOCIAL_EDITOR_ROLE}}</td>
+<td>2026-10-16</td>
+<td><a href="../03-drafts/sample-002/x.md">03-drafts/sample-002/x.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-002-review.md">04-review/sample-002-review.md</a></td>
+<td>示例/SAMPLE: Seven tweets; check sequence and final question.</td>
+</tr>
+<tr>
+<td>sample-002</td>
+<td>medium</td>
+<td>draft</td>
+<td>idea</td>
+<td>{{LONGFORM_EDITOR_ROLE}}</td>
+<td>2026-10-23</td>
+<td><a href="../03-drafts/sample-002/medium.md">03-drafts/sample-002/medium.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-002-review.md">04-review/sample-002-review.md</a></td>
+<td>示例/SAMPLE: Structure ready; opening still rough.</td>
+</tr>
+<tr>
+<td>sample-002</td>
+<td>linkedin</td>
+<td>idea</td>
+<td>idea</td>
+<td></td>
+<td>2026-10-26</td>
+<td><a href="../03-drafts/sample-002/linkedin.md">03-drafts/sample-002/linkedin.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-002-review.md">04-review/sample-002-review.md</a></td>
+<td>示例/SAMPLE: Unassigned angle; provisional copy only.</td>
+</tr>
+<tr>
+<td>sample-002</td>
+<td>reddit</td>
+<td>idea</td>
+<td>idea</td>
+<td>{{COMMUNITY_EDITOR_ROLE}}</td>
+<td>2026-10-28</td>
+<td><a href="../03-drafts/sample-002/reddit.md">03-drafts/sample-002/reddit.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-002-review.md">04-review/sample-002-review.md</a></td>
+<td>示例/SAMPLE: SKIPPED / NOT APPLICABLE: internal checklist has no community question yet; do not schedule. Provisional adaptation retained.</td>
+</tr>
+<tr>
+<td>sample-003</td>
+<td>wechat</td>
+<td>idea</td>
+<td>idea</td>
+<td>{{PLANNING_ROLE}}</td>
+<td>2026-10-30</td>
+<td><a href="../03-drafts/sample-003/wechat.md">03-drafts/sample-003/wechat.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-003-review.md">04-review/sample-003-review.md</a></td>
+<td>示例/SAMPLE: Audience decision pending; provisional copy.</td>
+</tr>
+<tr>
+<td>sample-003</td>
+<td>x</td>
+<td>draft</td>
+<td>idea</td>
+<td>{{SOCIAL_EDITOR_ROLE}}</td>
+<td>2026-10-18</td>
+<td><a href="../03-drafts/sample-003/x.md">03-drafts/sample-003/x.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-003-review.md">04-review/sample-003-review.md</a></td>
+<td>示例/SAMPLE: Four tweets; needs a stronger opening.</td>
+</tr>
+<tr>
+<td>sample-003</td>
+<td>medium</td>
+<td>review</td>
+<td>draft</td>
+<td>{{LONGFORM_EDITOR_ROLE}}</td>
+<td>2026-10-21</td>
+<td><a href="../03-drafts/sample-003/medium.md">03-drafts/sample-003/medium.md</a></td>
+<td>sample-003-medium</td>
+<td><a href="../04-review/sample-003-review.md">04-review/sample-003-review.md</a></td>
+<td>示例/SAMPLE: Review whether archive example is specific enough.</td>
+</tr>
+<tr>
+<td>sample-003</td>
+<td>linkedin</td>
+<td>draft</td>
+<td>returned</td>
+<td>{{PROFESSIONAL_EDITOR_ROLE}}</td>
+<td>2026-10-17</td>
+<td><a href="../03-drafts/sample-003/linkedin.md">03-drafts/sample-003/linkedin.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-003-review.md">04-review/sample-003-review.md</a></td>
+<td>示例/SAMPLE: Revision after SAMPLE return; removed unsupported time-saving claim.</td>
+</tr>
+<tr>
+<td>sample-003</td>
+<td>reddit</td>
+<td>idea</td>
+<td>idea</td>
+<td>{{COMMUNITY_EDITOR_ROLE}}</td>
+<td>2026-11-02</td>
+<td><a href="../03-drafts/sample-003/reddit.md">03-drafts/sample-003/reddit.md</a></td>
+<td></td>
+<td><a href="../04-review/sample-003-review.md">04-review/sample-003-review.md</a></td>
+<td>示例/SAMPLE: Check whether discussion duplicates an existing topic.</td>
+</tr>
+</tbody></table></div></body></html>

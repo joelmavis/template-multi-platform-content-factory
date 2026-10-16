@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "note": "Local editorial defaults; manually verify destination rules before publishing.",
+  "platforms": {
+    "wechat": {
+      "language": "zh-Hans",
+      "length_unit": "chars",
+      "min_length": 180,
+      "max_length": 5000,
+      "min_language_ratio": 0.35
+    },
+    "x": {
+      "language": "en",
+      "length_unit": "chars",
+      "min_length": 100,
+      "max_length": 2500,
+      "min_language_ratio": 0.8,
+      "tweet_max_chars": 280
+    },
+    "medium": {
+      "language": "en",
+      "length_unit": "words",
+      "min_length": 300,
+      "max_length": 2000,
+      "min_language_ratio": 0.8
+    },
+    "linkedin": {
+      "language": "en",
+      "length_unit": "words",
+      "min_length": 80,
+      "max_length": 400,
+      "min_language_ratio": 0.8
+    },
+    "reddit": {
+      "language": "en",
+      "length_unit": "words",
+      "min_length": 100,
+      "max_length": 600,
+      "min_language_ratio": 0.8
+    }
+  }
+}

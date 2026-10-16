@@ -1,0 +1,16 @@
+topic_id,platform,status,previous_status,owner,due,file_path,visual_brief_id,review_path,notes
+sample-001,wechat,review,draft,{{ZH_EDITOR_ROLE}},2026-10-14,03-drafts/sample-001/wechat.md,sample-001-wechat,04-review/sample-001-review.md,示例/SAMPLE: Waiting for language review.
+sample-001,x,published,final,{{PUBLISHER_ROLE}},2026-10-12,03-drafts/sample-001/x.md,,04-review/sample-001-review.md,示例/SAMPLE: SAMPLE simulated publication; no actual post.
+sample-001,medium,returned,review,{{LONGFORM_EDITOR_ROLE}},2026-10-15,03-drafts/sample-001/medium.md,sample-001-medium,04-review/sample-001-review.md,示例/SAMPLE: 退回: opening too broad; replace vague handoff example.
+sample-001,linkedin,final,review,{{REVIEWER_ROLE}},2026-10-19,03-drafts/sample-001/linkedin.md,sample-001-linkedin,04-review/sample-001-review.md,示例/SAMPLE: SAMPLE simulated final decision; no real approval.
+sample-001,reddit,draft,idea,,2026-10-22,03-drafts/sample-001/reddit.md,,04-review/sample-001-review.md,示例/SAMPLE: Owner unassigned; community fit unresolved.
+sample-002,wechat,draft,idea,{{ZH_EDITOR_ROLE}},2026-10-20,03-drafts/sample-002/wechat.md,sample-002-wechat,04-review/sample-002-review.md,示例/SAMPLE: First pass; concrete handoff example needed.
+sample-002,x,review,draft,{{SOCIAL_EDITOR_ROLE}},2026-10-16,03-drafts/sample-002/x.md,,04-review/sample-002-review.md,示例/SAMPLE: Seven tweets; check sequence and final question.
+sample-002,medium,draft,idea,{{LONGFORM_EDITOR_ROLE}},2026-10-23,03-drafts/sample-002/medium.md,,04-review/sample-002-review.md,示例/SAMPLE: Structure ready; opening still rough.
+sample-002,linkedin,idea,idea,,2026-10-26,03-drafts/sample-002/linkedin.md,,04-review/sample-002-review.md,示例/SAMPLE: Unassigned angle; provisional copy only.
+sample-002,reddit,idea,idea,{{COMMUNITY_EDITOR_ROLE}},2026-10-28,03-drafts/sample-002/reddit.md,,04-review/sample-002-review.md,示例/SAMPLE: SKIPPED / NOT APPLICABLE: internal checklist has no community question yet; do not schedule. Provisional adaptation retained.
+sample-003,wechat,idea,idea,{{PLANNING_ROLE}},2026-10-30,03-drafts/sample-003/wechat.md,,04-review/sample-003-review.md,示例/SAMPLE: Audience decision pending; provisional copy.
+sample-003,x,draft,idea,{{SOCIAL_EDITOR_ROLE}},2026-10-18,03-drafts/sample-003/x.md,,04-review/sample-003-review.md,示例/SAMPLE: Four tweets; needs a stronger opening.
+sample-003,medium,review,draft,{{LONGFORM_EDITOR_ROLE}},2026-10-21,03-drafts/sample-003/medium.md,sample-003-medium,04-review/sample-003-review.md,示例/SAMPLE: Review whether archive example is specific enough.
+sample-003,linkedin,draft,returned,{{PROFESSIONAL_EDITOR_ROLE}},2026-10-17,03-drafts/sample-003/linkedin.md,,04-review/sample-003-review.md,示例/SAMPLE: Revision after SAMPLE return; removed unsupported time-saving claim.
+sample-003,reddit,idea,idea,{{COMMUNITY_EDITOR_ROLE}},2026-11-02,03-drafts/sample-003/reddit.md,,04-review/sample-003-review.md,示例/SAMPLE: Check whether discussion duplicates an existing topic.
